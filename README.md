@@ -6,6 +6,7 @@
 ### [!3](!3HomeWork)
 ### [!4](!4HomeWork)
 ### [!5](!5HomeWork)
+###[!6](!6HomeWork)
 
 ## Class Work
 ### [!1](!1ClassWork)
