@@ -8,6 +8,7 @@
 ### [!5](!5HomeWork)
 ### [!6](!6HomeWork)
 ### [!7](!7HomeWork)
+### [!8](!8HomeWork)
 
 ## Class Work
 ### [!1](!1ClassWork)
