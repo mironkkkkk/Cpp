@@ -90,38 +90,39 @@ int main()
 
     cout << "idBetter: " << idBetter << " idWorst: " << idWorst << endl;
     */
-    const int SIZE1 = 3;
-    const int SIZE2 = 4;
-    int mass[SIZE1][SIZE2]{};
-    for (int i = 0; i < SIZE1; i++) {
-        for (int j = 0; j < SIZE2; j++) {
-            mass[i][j] = 1 + rand() % 9;
-        }
-    }
-    int summSTR = 0;
-    int summCOL = 0;
+    const int STR = 4;
+    const int COLUMN = 3;
+    int mass[STR][COLUMN]{};
+    int sumAll = 0;
 
-    for (int i = 0, summ; i < SIZE1; i++) {
-        summ = 0;
-        for (int j = 0; j < SIZE2; j++) {
+    for (int i = 0; i < STR; i++) {
+        for (int j = 0; j < COLUMN; j++) {
+            mass[i][j] = 1 + rand() % 9;
             cout << mass[i][j] << " ";
-            summ += mass[i][j];
         }
-        cout << summ;
-        summSTR += summ;
         cout << endl;
     }
-    
-    for (int k = 0, summ; k < SIZE2; k++) {
-        summ = 0;
-        for (int i = 0; i < SIZE2; i++) {
-            for (int j = 0; j < SIZE1; j++) {
-                summ += mass[i][j];
-            }
+
+    for (int i = 0, sum; i < STR; i++) {
+        sum = 0;
+        for (int j = 0; j < COLUMN; j++) {
+            cout << mass[i][j] << "\t";
+            sum += mass[i][j];
         }
-        cout << summ << " ";
-        summCOL += summ;
+        cout << "| " << sum;
+        sumAll += sum;
+        cout << endl;
     }
-    cout << summCOL + summSTR;
+
+    for (int j = 0, sum; j < COLUMN; j++) {
+        sum = 0;
+        for (int i = 0; i < STR; i++) {
+            sum += mass[i][j];
+        }
+        cout << sum << "\t";
+    }
+
+
+    cout << "| " << sumAll;
 }
 
