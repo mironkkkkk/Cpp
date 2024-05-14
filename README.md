@@ -17,4 +17,8 @@
 ### [!2](!2ClassWork)
 ### [!3](!3ClassWork)
 ### [!4](!4ClassWork)
+### [!5](!5ClassWork)
+### [!6](!6ClassWork)
+### [!7](!7ClassWork)
+
 
