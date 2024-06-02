@@ -11,7 +11,7 @@
 ### [!8](!8HomeWork)
 ### [!9](!9HomeWork)
 ### [!10](!10HomeWork)
-№№№ [Rock-paper-scissors](Rock-paper-scissors)
+№№№ [Rock](Rock-paper-scissors)
 
 
 
