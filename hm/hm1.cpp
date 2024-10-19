@@ -82,11 +82,11 @@ void shifrSalat(string path1, string path2, int key) {
             for (int i = 0; i < line.length(); i++) {
                 for (int k = 0; k < 33; k++) {\
                     if (k > 30 && line[i] == letters[k]) {
-                        out << letters[(k + 3) - 33];
+                        out << letters[(k + key) - 33];
                         continue;
                     }
                     else if (line[i] == letters[k]) {
-                        out << letters[k + 3];
+                        out << letters[k + key];
                         continue;
                     }
                 }
